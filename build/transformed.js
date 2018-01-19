@@ -18269,9 +18269,9 @@ module.exports = camelize;
 class App extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
+      'h1',
       null,
-      'Hej'
+      'Hello, world!'
     );
   }
 }

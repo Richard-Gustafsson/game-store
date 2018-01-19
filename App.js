@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 export default class App extends Component {
   render() {
     return(
-      <div>Hej</div>
+      <div>
+        <h1>Hello world!</h1>
+      </div>
     );
   }
 }
