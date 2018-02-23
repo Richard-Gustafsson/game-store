@@ -22,7 +22,7 @@
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
+    "react-redux": "^5.0.7",
     "reactstrap": "^5.0.0-beta",
     "redux": "^3.7.2"
   },
@@ -34,6 +34,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "html-webpack-plugin": "^2.30.1",
+    "redux-devtools": "^3.4.1",
     "style-loader": "^0.20.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.0"
