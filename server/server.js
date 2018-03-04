@@ -14,6 +14,12 @@ var port = process.env.API_PORT || 3001;
 var mongoDB = 'mongodb://127.0.0.1/game-store';
 mongoose.connect(mongoDB);
 
+mongoose.connection.once('open', function() {
+  console.log('Connection to database  = Great success :D');
+}).on('error', function() {
+  console.log('Connection failed to mongoDB');
+})
+
 mongoose.Promise = global.Promise;
 
 var db = mongoose.connection;
